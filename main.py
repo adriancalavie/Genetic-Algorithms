@@ -1,7 +1,6 @@
 import operator
 from random import choice, uniform, randint
 import matplotlib.pyplot as plt
-from pip._vendor.distlib.compat import raw_input
 
 mutation_rate = 0.02
 
@@ -197,7 +196,7 @@ def run():
 
     # plt.plot([sum(gen.values()) for gen in history])
     # plt.show()
-    
+
 
 if __name__ == '__main__':
     run()
